@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="47cm" height="24cm" viewBox="-7 -41 929 477" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <g>
+      <rect style="fill: #5e5a7c" x="-5.35" y="-39" width="926" height="474"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x="-5.35" y="-39" width="926" height="474"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="457.65" y="201.9">
+        <tspan x="457.65" y="201.9"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1d819" x="232" y="121" width="91.25" height="234"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #f1d819" x="232" y="121" width="91.25" height="234"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="277.625" y="233.9">
+        <tspan x="277.625" y="233.9">Apache</tspan>
+        <tspan x="277.625" y="249.9">Kafka</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #26bad4" x="462" y="21" width="176" height="114"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" x="462" y="21" width="176" height="114"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="550" y="81.9">
+        <tspan x="550" y="81.9"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0cf2e3" x="471" y="27" width="158" height="47"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0cf2e3" x="471" y="27" width="158" height="47"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="550" y="54.4">
+        <tspan x="550" y="54.4">Akka</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0cf2e3" x="472" y="80.4" width="158" height="47"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0cf2e3" x="472" y="80.4" width="158" height="47"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="551" y="107.8">
+        <tspan x="551" y="107.8">Akka Streams</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #26bad4" x="453" y="240.4" width="195" height="114"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" x="453" y="240.4" width="195" height="114"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="550.5" y="301.3">
+        <tspan x="550.5" y="301.3"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1d819" x="459" y="249.4" width="178" height="47"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #f1d819" x="459" y="249.4" width="178" height="47"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="548" y="276.8">
+        <tspan x="548" y="276.8">Spark</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1d819" x="461" y="300" width="79" height="49.8"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #f1d819" x="461" y="300" width="79" height="49.8"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="500.5" y="328.8">
+        <tspan x="500.5" y="328.8">Batch</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1d819" x="544.025" y="300.4" width="96.95" height="48.6"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #f1d819" x="544.025" y="300.4" width="96.95" height="48.6"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="592.5" y="328.6">
+        <tspan x="592.5" y="328.6">Streaming</tspan>
+      </text>
+    </g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #e65e23" x1="690.9" y1="-32" x2="691.9" y2="429"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="766" y="78">
+      <tspan x="766" y="78">PERSISTENCE</tspan>
+    </text>
+    <g>
+      <rect style="fill: #c1bebe" x="764" y="92.4" width="101" height="188.6"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #c1bebe" x="764" y="92.4" width="101" height="188.6"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="814.5" y="182.6">
+        <tspan x="814.5" y="182.6">Apache</tspan>
+        <tspan x="814.5" y="198.6">Cassandra</tspan>
+      </text>
+    </g>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="809" y="138">
+      <tspan x="809" y="138"></tspan>
+    </text>
+    <g>
+      <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" x1="550.046" y1="144.736" x2="550.454" y2="230.664"/>
+      <polygon style="fill: #26bad4" points="550.011,137.236 555.058,147.212 550.046,144.736 545.058,147.26 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="550.011,137.236 555.058,147.212 550.046,144.736 545.058,147.26 "/>
+      <polygon style="fill: #26bad4" points="550.489,238.164 545.442,228.188 550.454,230.664 555.442,228.14 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="550.489,238.164 545.442,228.188 550.454,230.664 555.442,228.14 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #1bb3e1" points="155.386,78.225 303.825,78.225 303.825,78 452.264,78 "/>
+      <polygon style="fill: #1bb3e1" points="147.886,78.225 157.886,73.225 155.386,78.225 157.886,83.225 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #1bb3e1" points="147.886,78.225 157.886,73.225 155.386,78.225 157.886,83.225 "/>
+      <polygon style="fill: #1bb3e1" points="459.764,78 449.764,83 452.264,78 449.764,73 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #1bb3e1" points="459.764,78 449.764,83 452.264,78 449.764,73 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="443.264,297.4 388.125,297.4 388.125,296.5 332.986,296.5 "/>
+      <polygon style="fill: #26bad4" points="450.764,297.4 440.764,302.4 443.264,297.4 440.764,292.4 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="450.764,297.4 440.764,302.4 443.264,297.4 440.764,292.4 "/>
+      <polygon style="fill: #26bad4" points="325.486,296.5 335.486,291.5 332.986,296.5 335.486,301.5 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="325.486,296.5 335.486,291.5 332.986,296.5 335.486,301.5 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="222.264,238 182,238 182,212.075 155.386,212.075 "/>
+      <polygon style="fill: #26bad4" points="229.764,238 219.764,243 222.264,238 219.764,233 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="229.764,238 219.764,243 222.264,238 219.764,233 "/>
+      <polygon style="fill: #26bad4" points="147.886,212.075 157.886,207.075 155.386,212.075 157.886,217.075 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="147.886,212.075 157.886,207.075 155.386,212.075 157.886,217.075 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="506,144.736 506,179.5 332.986,179.5 "/>
+      <polygon style="fill: #26bad4" points="506,137.236 511,147.236 506,144.736 501,147.236 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="506,137.236 511,147.236 506,144.736 501,147.236 "/>
+      <polygon style="fill: #26bad4" points="325.486,179.5 335.486,174.5 332.986,179.5 335.486,184.5 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="325.486,179.5 335.486,174.5 332.986,179.5 335.486,184.5 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="647.736,78 701,78 701,139.55 754.264,139.55 "/>
+      <polygon style="fill: #26bad4" points="640.236,78 650.236,73 647.736,78 650.236,83 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="640.236,78 650.236,73 647.736,78 650.236,83 "/>
+      <polygon style="fill: #26bad4" points="761.764,139.55 751.764,144.55 754.264,139.55 751.764,134.55 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="761.764,139.55 751.764,144.55 754.264,139.55 751.764,134.55 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="657.736,297.4 706,297.4 706,233.85 754.264,233.85 "/>
+      <polygon style="fill: #26bad4" points="650.236,297.4 660.236,292.4 657.736,297.4 660.236,302.4 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="650.236,297.4 660.236,292.4 657.736,297.4 660.236,302.4 "/>
+      <polygon style="fill: #26bad4" points="761.764,233.85 751.764,238.85 754.264,233.85 751.764,228.85 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" points="761.764,233.85 751.764,238.85 754.264,233.85 751.764,228.85 "/>
+    </g>
+    <g>
+      <rect style="fill: #26bad4" x="13.5" y="11.3" width="132.15" height="267.7"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #26bad4" x="13.5" y="11.3" width="132.15" height="267.7"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="79.575" y="149.05">
+        <tspan x="79.575" y="149.05"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #80107c" x="32.9" y="190" width="103.2" height="69"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #80107c" x="32.9" y="190" width="103.2" height="69"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="84.5" y="220.4">
+        <tspan x="84.5" y="220.4">Data</tspan>
+        <tspan x="84.5" y="236.4">Sources</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #80107c" x="32.6" y="23.4" width="101" height="63"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #80107c" x="32.6" y="23.4" width="101" height="63"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="83.1" y="58.8">
+        <tspan x="83.1" y="58.8"></tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="83.1" y="51.35">
+      <tspan x="83.1" y="51.35">WEB AND</tspan>
+      <tspan x="83.1" y="67.35">MOBILE APPS</tspan>
+    </text>
+    <g>
+      <rect style="fill: #80107c" x="29.0875" y="102.3" width="111.25" height="63"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #80107c" x="29.0875" y="102.3" width="111.25" height="63"/>
+      <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="84.7125" y="129.7">
+        <tspan x="84.7125" y="129.7">internal </tspan>
+        <tspan x="84.7125" y="145.7">Applications</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
