@@ -1,0 +1,7 @@
+data
+*.csv
+*.gz
+zeppelin
+opt
+temp
+*.sh
