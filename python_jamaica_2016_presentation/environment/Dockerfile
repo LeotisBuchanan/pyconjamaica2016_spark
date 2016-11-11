@@ -2,8 +2,8 @@
 FROM centos:centos7
 MAINTAINER Leotis Buchanan <leotisbuchanan@gmail.com>
 
-RUN yum -y update; yum clean all
-RUN yum -y install epel-release; yum clean all
+RUN yum -y update && yum clean all
+RUN yum -y install epel-release && yum clean all
 
 
 #install emacs
@@ -18,13 +18,15 @@ RUN yum -y install git
 RUN yum -y install wget
 
 # install bzip2
-RUN yum install bzip2
+RUN yum -y install bzip2
+
+
 
 #anaconda
 RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh
 RUN wget --quiet https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh -O ~/anaconda.sh
 RUN /bin/bash ~/anaconda.sh -b -p /opt/conda
-RUN  ~/anaconda.sh
+
 
 #java
 #
@@ -41,16 +43,21 @@ RUN curl -sL --retry 3 --insecure \
   && ln -s $JAVA_HOME /usr/java \
   && rm -rf $JAVA_HOME/man
 
-
+RUN adduser pycon
+RUN su pycon
 
 # SPARK
-RUN curl -s http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.7.tgz | tar -xz -C /usr/local/ && curl -s http://www-us.apache.org/dist/zeppelin/zeppelin-0.6.2/zeppelin-0.6.2-bin-all.tgz | tar -xz -C /usr/local/
+RUN curl -s http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.7.tgz | tar -xz -C /home/pycon/ && curl -s http://www-us.apache.org/dist/zeppelin/zeppelin-0.6.2/zeppelin-0.6.2-bin-all.tgz | tar -xz -C /home/pycon/
 
-RUN cd /usr/local && ln -s spark-2.0.1-bin-hadoop2.7 spark && ln -s zeppelin-0.6.2-bin-all zeppelin
+RUN cd /home/pycon && ln -s spark-2.0.1-bin-hadoop2.7 spark && ln -s zeppelin-0.6.2-bin-all zeppelin
 
-ADD scripts/*.sh /
-ADD scripts/spark-defaults.conf /spark-defaults.conf
+ADD scripts/*.sh /home/pycon
+ADD scripts/spark-defaults.conf /home/pycon/spark-defaults.conf
 
-ENV SPARK_HOME /usr/local/spark
+RUN cd /home/pycon
+RUN chown -R pycon:pycon /home/pycon/
+
+
+ENV SPARK_HOME /home/pycon/spark
 
 EXPOSE 8080 8081

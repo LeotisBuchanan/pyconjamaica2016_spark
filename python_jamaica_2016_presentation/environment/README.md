@@ -17,3 +17,9 @@ docker pull hessian/yardman
 
 ##running image
 docker run --rm -p 8080:8080 hessian/yardman
+
+## running with interactive bash
+ docker run -it <image> /bin/bash
+docker run -it --rm -p 8080:8080 hessian/yardman /bin/bash
+## commit image changes
+docker commit container_id hessian/yardman
